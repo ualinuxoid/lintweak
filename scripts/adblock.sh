@@ -17,8 +17,7 @@ PORN_FALLBACK="http://sbc.io/hosts/alternates/porn-only/hosts"
 SOCIAL_GITHUB="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social-only/hosts"
 SOCIAL_FALLBACK="http://sbc.io/hosts/alternates/social-only/hosts"
 
-# Temporary placeholder
-# RUSSIAN_PROPAGANDA_URL="https://example.com"
+RUSSIAN_PROPAGANDA_URL="https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/misc/rublock.txt"
 
 CONFIG_FILE="/etc/hosts-block.conf"
 UPDATE_SCRIPT="/usr/local/bin/update-hosts.sh"
