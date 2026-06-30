@@ -1,4 +1,4 @@
-### lintweak
+### Welcome to lintweak 👋 
 Simple Linux tweaks mainly written in pure bash 🤤
 
 **This is the repo, where I will share my personal Linux tweaks, I created for convenience**
@@ -44,6 +44,9 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/ad
 
 ### 🧪 Experimental section
 [Hosts file generator](https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/crapblock.sh), that blocks most popular .ru and .su domains. [Github mirror.](https://github.com/ualinuxoid/lintweak/blob/main/scripts/crapblock.sh)
+
+### ℹ️ Info:
+Scripts here written in pure bash on purpose. I am trying to make them easily verifiable, even if you are not computer programmer. Transparency is the most important thing, when it is about trust. So I will to avoid other languages as much as possible.
 
 ### ⚠️ Disclaimer ⚠️
 Proceed **only** if you know what are you doing! I strongly recommend to **review** my scripts before running them.
