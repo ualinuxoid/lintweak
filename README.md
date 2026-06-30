@@ -10,8 +10,7 @@ Simple Linux tweaks mainly written in pure bash 🤤
 - Linux [adblocker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/adblock.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/adblock.sh)
 - Linux Mint [MAT2](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Mat2.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Mat2.sh)
 - Linux Mint [media shrinker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Compress.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Compress.sh)
-
-**And my [rublock](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/rublock.txt). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/misc/rublock.txt)**
+- **And my [rublock](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/rublock.txt) hosts file. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/misc/rublock.txt)**
 
 *To run my scripts, simply download preferred .sh file and run `sudo chmod +x /path/to/downloaded/script && sudo bash /path/to/downloaded/script`.*
 
