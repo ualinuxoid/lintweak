@@ -42,7 +42,10 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/Co
 sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/adblock.sh | bash
 ```
 
-### ⚠️⚠️⚠️ Disclaimer ⚠️⚠️⚠️
+### 🧪 Experimental section
+[Hosts file generator](https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/crapblock.sh), that blocks most popular .ru and .su domains. [Github mirror.](https://github.com/ualinuxoid/lintweak/blob/main/scripts/crapblock.sh)
+
+### ⚠️ Disclaimer ⚠️
 Proceed **only** if you know what are you doing! I strongly recommend to **review** my scripts before running them.
 
 This project provided "AS IS". I do not responsible for any malfunction caused (if any) by my scripts. Please, proceed with caution.
