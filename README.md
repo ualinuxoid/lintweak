@@ -57,4 +57,4 @@ This project provided "AS IS". I do not responsible for any malfunction caused (
 If you want to support me, please, consider donation to [Ukrainian defenders](https://war.ukraine.ua/)
 
 ### Contact info:
-dev[at]ualinuxoid.anonaddy.me
+enrich-zit-icon@duck.com
