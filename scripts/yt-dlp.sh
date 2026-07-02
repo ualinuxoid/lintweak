@@ -12,10 +12,10 @@ REAL_HOME=$(getent passwd "$REAL_USER" | cut -d: -f6)
 DESKTOP_DIR=$(sudo -u "$REAL_USER" xdg-user-dir DESKTOP 2>/dev/null || echo "$REAL_HOME/Desktop")
 
 echo "==> Updating package lists..."
-apt update > /dev/null 2>&1 && echo "    Done." || { echo "    FAILED to update packages."; exit 1; }
+apt update > /dev/null 2>&1 && echo "Done." || { echo "FAILED to update packages."; exit 1; }
 
 echo "==> Installing requirements..."
-apt install -y yt-dlp zenity ffmpeg > /dev/null 2>&1 && echo "    Packages installed." || { echo "    FAILED to install packages."; exit 1; }
+apt install -y yt-dlp zenity ffmpeg > /dev/null 2>&1 && echo "Packages installed." || { echo "FAILED to install packages."; exit 1; }
 
 GUI_SCRIPT="/usr/local/bin/yt-dlp-gui"
 echo "==> Setting up main logic :)"
