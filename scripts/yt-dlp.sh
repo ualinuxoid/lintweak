@@ -83,6 +83,9 @@ Terminal=false
 Type=Application
 Categories=AudioVideo;
 EOF
+
+chmod +x "/usr/share/applications/yt-dlp-gui.desktop" 2>/dev/null || true
+
 echo "==> DONE!"
 
 echo "=============================================="
