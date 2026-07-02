@@ -10,6 +10,7 @@ Simple Linux tweaks mainly written in pure bash 🤤
 - Linux [adblocker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/adblock.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/adblock.sh)
 - Linux Mint [MAT2](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Mat2.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Mat2.sh)
 - Linux Mint [media shrinker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Compress.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Compress.sh)
+- [YT-DLP GUI](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/yt-dlp.sh) (extremely lightweight!). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/yt-dlp.sh)
 - **And my [rublock](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/rublock.txt) hosts file. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/misc/rublock.txt)**
 
 *To run my scripts, simply download preferred .sh file and run `sudo chmod +x /path/to/downloaded/script && sudo bash /path/to/downloaded/script`.*
@@ -34,6 +35,13 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/Ma
 *This script aims to install ffmpeg based media compression util as convenient `nemo_action` to make easier to run compress your media just in right click on file*
 ```
 sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/Compress.sh | bash
+```
+
+**yt-dlp installation:**
+*This script aims to install yt-dlp and add extremely lightweight (zenity based) GUI. Desktop shortcut included :)*
+*Tested on Linux Mint, but it should work on any Ubuntu or Debian based distro (including Pop!OS, Zorin etc)
+```
+sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/yt-dlp.sh | bash
 ```
 
 **Adblock installation:**
