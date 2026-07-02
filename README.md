@@ -39,7 +39,7 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/Co
 
 **yt-dlp installation:**
 *This script aims to install yt-dlp and add extremely lightweight (zenity based) GUI. Desktop shortcut included :)*
-*Tested on Linux Mint, but it should work on any Ubuntu or Debian based distro (including Pop!OS, Zorin etc)
+*Tested on Linux Mint, but it should work on any Ubuntu or Debian based distro (including Pop!OS, Zorin etc)*
 ```
 sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/yt-dlp.sh | bash
 ```
