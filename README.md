@@ -51,7 +51,9 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/ad
 
 ### 🧪 Experimental section
 **WARNING!** *Experimental section is not tested, and should NOT be used on critical installations! If you consider to use them, always make **FULL** backup befor running anything from this section!*
+
 [Hosts file generator](https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/crapblock.sh), that blocks most popular .ru and .su domains. [Github mirror.](https://github.com/ualinuxoid/lintweak/blob/main/scripts/crapblock.sh)
+
 [GPG GUI](https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/crypt.sh), that uses GPG, zenity and pure bash to create lightweight and easy-to-use encryption solution for Linux Mint. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/crypt.sh)
 
 ### ℹ️ Info:
