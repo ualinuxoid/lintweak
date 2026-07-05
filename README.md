@@ -50,7 +50,9 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/ad
 ```
 
 ### 🧪 Experimental section
+**WARNING!** *Experimental section is not tested, and should NOT be used on critical installations! If you consider to use them, always make **FULL** backup befor running anything from this section!*
 [Hosts file generator](https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/crapblock.sh), that blocks most popular .ru and .su domains. [Github mirror.](https://github.com/ualinuxoid/lintweak/blob/main/scripts/crapblock.sh)
+[GPG GUI](https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/crypt.sh), that uses GPG, zenity and pure bash to create lightweight and easy-to-use encryption solution for Linux Mint. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/crypt.sh)
 
 ### ℹ️ Info:
 Scripts here written in pure bash on purpose. I am trying to make them easily verifiable, even if you are not computer programmer. Transparency is the most important thing, when it is about trust. So I will to avoid other languages as much as possible.
@@ -58,7 +60,7 @@ Scripts here written in pure bash on purpose. I am trying to make them easily ve
 ### ⚠️ Disclaimer ⚠️
 Proceed **only** if you know what are you doing! I strongly recommend to **review** my scripts before running them.
 
-This project provided "AS IS". I do not responsible for any malfunction caused (if any) by my scripts. Please, proceed with caution.
+This project provided "AS IS". I do not responsible for any malfunction caused (if any) by my scripts. You **MUST** make full backups. Please, proceed with caution.
 
 ### Proudly developed in Ukraine 🇺🇦 
 If you want to support me, please, consider donation to [Ukrainian defenders](https://war.ukraine.ua/)
