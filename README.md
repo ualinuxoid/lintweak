@@ -5,6 +5,12 @@ Simple Linux tweaks mainly written in pure bash 🤤
 
 *NOTE: [Github](https://github.com/ualinuxoid/lintweak) is used only as **mirror**. Please use my [codeberg](https://codeberg.org/ualinuxoid/lintweak) if you need to submit anything*
 
+### 🧹 Ublock filters:
+
+I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/ubo.txt), designed for UBlock Origin. Currently focused only on youtube to prevent autodubbing from working (enforce original audio). [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/misc/ubo.txt)
+
+**Info**: to make them work, tick "trust custom filters box" (translation can vary with your locale).
+
 ### 😏 Scripts:
 - Linux [privacy hardener](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Privacy.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Privacy.sh)
 - Linux [adblocker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/adblock.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/adblock.sh)
@@ -17,7 +23,7 @@ Simple Linux tweaks mainly written in pure bash 🤤
 
 While you can use direct piping to bash, I strongly recommend you to download and run scripts manually.
 
-If you are feeling risky, you can run:
+If you are feeling risky:
 
 **Privacy hardener:**
 *This script trying to enchance your privacy via applying multiple cosmetic tweaks, such as MAC randomization, NTS setup, DOT setup etc...*
