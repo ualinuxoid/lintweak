@@ -56,6 +56,12 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/ad
 
 [GPG GUI](https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/crypt.sh), that uses GPG, zenity and pure bash to create lightweight and easy-to-use encryption solution for Linux Mint. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/crypt.sh)
 
+[Email alias GUI](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/aliaser.sh). Based on curl and zenity. You need an already registered `@duck.com` account to use it. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/aliaser.sh). WARNING! Aliaser is experimental, not tested carefully, and wrote in midnight, it should NOT be used as your only alias solution; fixes and bug reports are welcome though.
+
+Tou use `Aliaser`, you should first register a `@duck.com` account, then install dependencies via `sudo apt update && sudo apt install curl jq zenity xclip`
+
+`Aliaser` logic was taken from [this](https://github.com/Lanshuns/Qwacky) awesome project.
+
 ### ℹ️ Info:
 Scripts here written in pure bash on purpose. I am trying to make them easily verifiable, even if you are not computer programmer. Transparency is the most important thing, when it is about trust. So I will to avoid other languages as much as possible.
 
