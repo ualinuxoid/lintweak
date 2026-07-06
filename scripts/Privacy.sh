@@ -103,6 +103,12 @@ leapsectz right/UTC
 EOF
 echo "[+] NTS instead of NTP setup successfull :)"
 
+echo "[*] Now script will enforce generic hostname"
+
+hostnamectl set-hostname "Android"
+
+echo "[+] Done!"
+
 echo "Next step (optional) GRUB hardening!"
 echo "IMPORTANT: Remember these credentials – forgetting these will make you impossible to boot into system!"
 ask_grub() {
