@@ -17,6 +17,7 @@ I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/u
 - Linux Mint [MAT2](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Mat2.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Mat2.sh)
 - Linux Mint [media shrinker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Compress.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Compress.sh)
 - [YT-DLP GUI](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/yt-dlp.sh) (extremely lightweight!). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/yt-dlp.sh)
+- [Setup](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/setup.sh) script. Aims to help newbies on Linux. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/setup.sh)
 - **And my [rublock](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/rublock.txt) hosts file. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/misc/rublock.txt)**
 
 *To run my scripts, simply download preferred .sh file and run `sudo chmod +x /path/to/downloaded/script && sudo bash /path/to/downloaded/script`.*
@@ -55,6 +56,12 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/yt
 sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/adblock.sh | bash
 ```
 
+**Setup script:**
+*This script aims to install help newbies on Linux*
+```
+sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/setup.sh | bash
+```
+
 ### 🧪 Experimental section
 **WARNING!** *Experimental section is not tested, and should NOT be used on critical installations! If you consider to use them, always make **FULL** backup befor running anything from this section!*
 
@@ -64,9 +71,11 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/ad
 
 [Email alias GUI](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/aliaser.sh). Based on curl and zenity. You need an already registered `@duck.com` account to use it. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/aliaser.sh). WARNING! Aliaser is experimental, not tested carefully, and wrote in midnight, it should NOT be used as your only alias solution; fixes and bug reports are welcome though.
 
-Tou use `Aliaser`, you should first register a `@duck.com` account, then install dependencies via `sudo apt update && sudo apt install curl jq zenity xclip`
+To use `Aliaser`, you should first register a `@duck.com` account, then install dependencies via `sudo apt update && sudo apt install curl jq zenity xclip`
 
 `Aliaser` logic was taken from [this](https://github.com/Lanshuns/Qwacky) awesome project.
+
+[Windata](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/windata.sh). Should help you to extract your personal files from Windows machine. Designed to run from live Debian-based Linux. *Experimental tool*. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/windata.sh)
 
 ### ℹ️ Info:
 Scripts here written in pure bash on purpose. I am trying to make them easily verifiable, even if you are not computer programmer. Transparency is the most important thing, when it is about trust. So I will to avoid other languages as much as possible.
