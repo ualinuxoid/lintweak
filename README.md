@@ -77,6 +77,8 @@ To use `Aliaser`, you should first register a `@duck.com` account, then install 
 
 [Windata](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/windata.sh). Should help you to extract your personal files from Windows machine. Designed to run from live Debian-based Linux. *Experimental tool*. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/windata.sh)
 
+[Reed-Solomon](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/reed-solomon.sh) file protector. Aims to help you not to loose or damage your data on partially faulty storage systems. In short - this will try to prevent data corruption. ***WARNING: I am NOT python developer! Python module was AI assisted.*** *While it works as normal program, I respect my users and will NOT put this tool in main section untill it passes someone's review.* **USE ON OWN RISK** [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/reed-solomon.sh)
+
 ### ℹ️ Info:
 Scripts here written in pure bash on purpose. I am trying to make them easily verifiable, even if you are not computer programmer. Transparency is the most important thing, when it is about trust. So I will to avoid other languages as much as possible.
 
@@ -84,6 +86,9 @@ Scripts here written in pure bash on purpose. I am trying to make them easily ve
 Proceed **only** if you know what are you doing! I strongly recommend to **review** my scripts before running them.
 
 This project provided "AS IS". I do not responsible for any malfunction caused (if any) by my scripts. You **MUST** make full backups. Please, proceed with caution.
+
+### 🙏 Help needed:
+*I will bereally glad, if some of you will report problems and provide fixes or improvements for "experimental section".*
 
 ### Proudly developed in Ukraine 🇺🇦 
 If you want to support me, please, consider donation to [Ukrainian defenders](https://war.ukraine.ua/)
