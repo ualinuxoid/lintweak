@@ -93,5 +93,4 @@ This project provided "AS IS". I do not responsible for any malfunction caused (
 ### Proudly developed in Ukraine 🇺🇦 
 If you want to support me, please, consider donation to [Ukrainian defenders](https://war.ukraine.ua/)
 
-### Contact info:
-enrich-zit-icon@duck.com
+*Contact info can be found [here](https://codeberg.org/ualinuxoid/me)*
