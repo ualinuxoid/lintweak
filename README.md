@@ -11,6 +11,12 @@ I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/u
 
 **Info**: to make them work, tick "trust custom filters box" (translation can vary with your locale).
 
+### ⭕️ Miscellaneous section:
+[wg-rng.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/wg-rnd.sh). Created to avoid installing ovrbloated or paid-demanding VPN clients. Uses native WireGuard support and .conf files and easily change them via hotkey.
+***Be sure to edit path with vpn .conf files and set correct permissions, so random apps will not be able to see your private key from your wireguard files!*** [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/wg-rnd.sh) of wg-rng.sh.
+
+*NOTE: wg-rng.sh tested only on Linux Mint, but should work on many other systems like Ubuntu*
+
 ### 😏 Scripts:
 - Linux [privacy hardener](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Privacy.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Privacy.sh)
 - Linux [adblocker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/adblock.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/adblock.sh)
