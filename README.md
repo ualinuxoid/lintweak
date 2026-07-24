@@ -5,6 +5,15 @@ Simple Linux tweaks mainly written in pure bash 🤤
 
 *NOTE: [Github](https://github.com/ualinuxoid/lintweak) is used only as **mirror**. Please use my [codeberg](https://codeberg.org/ualinuxoid/lintweak) if you need to submit anything*
 
+### 😏 Scripts:
+- [Tor "VPN" installer](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/tor.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/tor.sh)
+- Linux [privacy hardener](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Privacy.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Privacy.sh)
+- Linux [adblocker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/adblock.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/adblock.sh)
+- Linux Mint [MAT2](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Mat2.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Mat2.sh)
+- Linux Mint [media shrinker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Compress.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Compress.sh)
+- [YT-DLP GUI](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/yt-dlp.sh) (extremely lightweight!). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/yt-dlp.sh)
+- [Setup](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/setup.sh) script. Aims to help newbies on Linux. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/setup.sh)
+
 ### 🕶 Usage
 
 *To run my scripts, simply download preferred .sh file and run `sudo chmod +x /path/to/downloaded/script && sudo bash /path/to/downloaded/script` or see link to run tips below*
@@ -27,14 +36,7 @@ I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/u
 
 **And my [rublock](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/rublock.txt) hosts file. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/misc/rublock.txt)**
 
-### 😏 Scripts:
-- [Tor "VPN" installer](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/tor.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/tor.sh)
-- Linux [privacy hardener](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Privacy.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Privacy.sh)
-- Linux [adblocker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/adblock.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/adblock.sh)
-- Linux Mint [MAT2](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Mat2.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Mat2.sh)
-- Linux Mint [media shrinker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Compress.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Compress.sh)
-- [YT-DLP GUI](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/yt-dlp.sh) (extremely lightweight!). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/yt-dlp.sh)
-- [Setup](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/setup.sh) script. Aims to help newbies on Linux. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/setup.sh)
+**🧪 I also have few experimental scripts.** You can see them [here](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/docs/experimental.md) (or on [Github](https://github.com/ualinuxoid/lintweak/blob/main/docs/experimental.md))
 
 ### ℹ️ Info:
 Scripts here written in pure bash on purpose. I am trying to make them easily verifiable, even if you are not computer programmer. Transparency is the most important thing, when it is about trust. So I will to avoid other languages as much as possible.
@@ -52,3 +54,7 @@ If you want to support me, please, consider donation to Ukrainian defenders:
 https://war.ukraine.ua/ or https://savelife.in.ua
 
 *Contact info can be found on [Codeberg](https://codeberg.org/ualinuxoid/me) or on [Github](https://github.com/ualinuxoid/me)*
+
+<p align="center">
+License: GPLv2-or-later
+</p>
