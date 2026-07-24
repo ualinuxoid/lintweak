@@ -12,7 +12,8 @@ Simple Linux tweaks mainly written in pure bash 🤤
 - Linux Mint [MAT2](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Mat2.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Mat2.sh)
 - Linux Mint [media shrinker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Compress.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Compress.sh)
 - [YT-DLP GUI](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/yt-dlp.sh) (extremely lightweight!). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/yt-dlp.sh)
-- [Setup](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/setup.sh) script. Aims to help newbies on Linux. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/setup.sh)
+- [Setup](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/setup.sh) script. Aims to help newbies on Linux. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/setup.sh)
+- [NoRU](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/noru.sh) script (do not confuse with rublock.txt hosts file). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/noru.sh)
 
 ### 🕶 Usage
 
