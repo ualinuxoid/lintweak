@@ -17,6 +17,8 @@ I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/u
 
 *NOTE: wg-rnd.sh tested only on Linux Mint, but should work on many other systems like Ubuntu*
 
+**And my [rublock](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/rublock.txt) hosts file. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/misc/rublock.txt)**
+
 ### 😏 Scripts:
 - [Tor "VPN" installer](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/tor.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/tor.sh)
 - Linux [privacy hardener](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Privacy.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Privacy.sh)
@@ -25,7 +27,6 @@ I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/u
 - Linux Mint [media shrinker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Compress.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Compress.sh)
 - [YT-DLP GUI](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/yt-dlp.sh) (extremely lightweight!). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/yt-dlp.sh)
 - [Setup](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/setup.sh) script. Aims to help newbies on Linux. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/setup.sh)
-- **And my [rublock](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/rublock.txt) hosts file. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/misc/rublock.txt)**
 
 *To run my scripts, simply download preferred .sh file and run `sudo chmod +x /path/to/downloaded/script && sudo bash /path/to/downloaded/script`.*
 
