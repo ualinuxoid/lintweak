@@ -18,6 +18,7 @@ I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/u
 *NOTE: wg-rnd.sh tested only on Linux Mint, but should work on many other systems like Ubuntu*
 
 ### 😏 Scripts:
+- [Tor "VPN" installer](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/tor.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/tor.sh)
 - Linux [privacy hardener](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Privacy.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Privacy.sh)
 - Linux [adblocker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/adblock.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/adblock.sh)
 - Linux Mint [MAT2](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Mat2.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Mat2.sh)
@@ -31,6 +32,12 @@ I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/u
 While you can use direct piping to bash, I strongly recommend you to download and run scripts manually.
 
 If you are feeling risky:
+
+**Tor installer:**
+*This script installs Tor as "VPN" (full system traffic passes through Tor), so you can bypass censorship or network restrictions system-wide. All dependencies and GUI control already managed by script. Beginner friendly!*
+```
+sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/tor.sh | bash
+```
 
 **Privacy hardener:**
 *This script trying to enchance your privacy via applying multiple cosmetic tweaks, such as MAC randomization, NTS setup, DOT setup etc...*
