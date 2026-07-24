@@ -54,7 +54,7 @@ If you want to support me, please, consider donation to Ukrainian defenders:
 
 https://war.ukraine.ua/ or https://savelife.in.ua
 
-### 📧 Contact info can be found on [Codeberg](https://codeberg.org/ualinuxoid/me) or on [Github](https://github.com/ualinuxoid/me)
+*Contact info can be found on [Codeberg](https://codeberg.org/ualinuxoid/me) or on [Github](https://github.com/ualinuxoid/me)*
 
 <p align="center">
 License: GPLv2-or-later
