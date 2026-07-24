@@ -9,7 +9,7 @@ Simple Linux tweaks mainly written in pure bash 🤤
 
 I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/ubo.txt), designed for UBlock Origin. Currently focused only on youtube to prevent autodubbing from working (enforce original audio). [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/misc/ubo.txt)
 
-**Info**: to make them work, tick "trust custom filters box" (translation can vary with your locale).
+**Info**: to make them work, tick "trust custom filters" box (translation can vary with your locale).
 
 ### ⭕️ Miscellaneous section:
 [wg-rnd.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/wg-rnd.sh). Created to avoid installing ovrbloated or paid-demanding VPN clients. Uses native WireGuard support and .conf files and easily change them via hotkey.
