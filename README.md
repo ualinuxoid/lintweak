@@ -30,14 +30,17 @@ I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/u
 
 *To run my scripts, simply download preferred .sh file and run `sudo chmod +x /path/to/downloaded/script && sudo bash /path/to/downloaded/script`.*
 
-While you can use direct piping to bash, I strongly recommend you to download and run scripts manually.
-
-If you are feeling risky:
+### 📥 Quick use:
+*I recommend to review scripts before running this commands*
 
 **Tor installer:**
 *This script installs Tor as "VPN" (full system traffic passes through Tor), so you can bypass censorship or network restrictions system-wide. All dependencies and GUI control already managed by script. Beginner friendly!*
 ```
 sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/tor.sh | bash
+```
+or
+```
+sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/tor.sh | bash
 ```
 
 **Privacy hardener:**
@@ -45,11 +48,19 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/to
 ```
 sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/Privacy.sh | bash
 ```
+or
+```
+sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/Privacy.sh | bash
+```
 
 **MAT2 installation:**
 *This script aims to install [MAT2](https://github.com/jvoisin/mat2) and add convenient `nemo_action` to make it easier to run metadata removal just in right click on file*
 ```
 sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/Mat2.sh | bash
+```
+or
+```
+sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/Mat2.sh | bash
 ```
 
 **Shrink installation:**
@@ -57,11 +68,19 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/Ma
 ```
 sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/Compress.sh | bash
 ```
+or
+```
+sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/Compress.sh | bash
+```
 
 **yt-dlp installation:**
 *This script aims to install yt-dlp and add extremely lightweight (zenity based) GUI. Desktop shortcut included. Tested on Linux Mint, but it should work on any Ubuntu or Debian based distro (including Pop!OS, Zorin etc) :)*
 ```
 sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/yt-dlp.sh | bash
+```
+or
+```
+sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/yt-dlp.sh | bash
 ```
 
 **Adblock installation:**
@@ -69,11 +88,19 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/yt
 ```
 sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/adblock.sh | bash
 ```
+or
+```
+sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/adblock.sh | bash
+```
 
 **Setup script:**
 *This script aims to install help newbies on Linux*
 ```
 sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/setup.sh | bash
+```
+or
+```
+sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/setup.sh | bash
 ```
 
 ### 🧪 Experimental section
@@ -91,7 +118,7 @@ To use `Aliaser`, you should first register a `@duck.com` account, then install 
 
 [Windata](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/windata.sh). Should help you to extract your personal files from Windows machine. Designed to run from live Debian-based Linux. *Experimental tool*. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/windata.sh)
 
-[Reed-Solomon](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/reed-solomon.sh) file protector. Aims to help you not to loose or damage your data on partially faulty storage systems. In short - this will try to prevent data corruption. ***WARNING: I am NOT python developer! Python module was AI assisted.*** *While it works as normal program, I respect my users and will NOT put this tool in main section untill it passes someone's review.* **USE ON OWN RISK** [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/reed-solomon.sh)
+[Reed-Solomon](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/reed-solomon.sh) file protector. Aims to help you not to loose or damage your data on partially faulty storage systems. In short - this will try to prevent data corruption. ***WARNING: I am NOT python developer!** I respect my users and will NOT put this tool in main section untill it passes someone's review.* **USE ON OWN RISK** [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/reed-solomon.sh)
 
 ### ℹ️ Info:
 Scripts here written in pure bash on purpose. I am trying to make them easily verifiable, even if you are not computer programmer. Transparency is the most important thing, when it is about trust. So I will to avoid other languages as much as possible.
@@ -105,6 +132,7 @@ This project provided "AS IS". I do not responsible for any malfunction caused (
 *I will bereally glad, if some of you will report problems and provide fixes or improvements for "experimental section".*
 
 ### Proudly developed in Ukraine 🇺🇦 
-If you want to support me, please, consider donation to [Ukrainian defenders](https://war.ukraine.ua/)
+If you want to support me, please, consider donation to Ukrainian defenders:
+https://war.ukraine.ua/ or https://savelife.in.ua
 
-*Contact info can be found [here](https://codeberg.org/ualinuxoid/me)*
+*Contact info can be found on [Codeberg](https://codeberg.org/ualinuxoid/me) or on [Github](https://github.com/ualinuxoid/me)*
