@@ -22,6 +22,7 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/Pr
 <p align="center">
   --------- OR ---------
 </p>
+
 ```
 sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/Privacy.sh | bash
 ```
@@ -34,6 +35,7 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/Ma
 <p align="center">
   --------- OR ---------
 </p>
+
 ```
 sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/Mat2.sh | bash
 ```
@@ -46,6 +48,7 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/Co
 <p align="center">
   --------- OR ---------
 </p>
+
 ```
 sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/Compress.sh | bash
 ```
@@ -58,6 +61,7 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/yt
 <p align="center">
   --------- OR ---------
 </p>
+
 ```
 sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/yt-dlp.sh | bash
 ```
@@ -70,6 +74,7 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/ad
 <p align="center">
   --------- OR ---------
 </p>
+
 ```
 sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/adblock.sh | bash
 ```
@@ -82,6 +87,7 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/se
 <p align="center">
   --------- OR ---------
 </p>
+
 ```
 sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/setup.sh | bash
 ```
