@@ -5,6 +5,14 @@ Simple Linux tweaks mainly written in pure bash 🤤
 
 *NOTE: [Github](https://github.com/ualinuxoid/lintweak) is used only as **mirror**. Please use my [codeberg](https://codeberg.org/ualinuxoid/lintweak) if you need to submit anything*
 
+### 🕶 Usage
+
+*To run my scripts, simply download preferred .sh file and run `sudo chmod +x /path/to/downloaded/script && sudo bash /path/to/downloaded/script` or see link to run tips below*
+
+**See usage documentation:**
+[Codeberg](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/docs/quick-start.md) or [Github](https://github.com/ualinuxoid/lintweak/blob/main/docs/quick-start.md)
+
+
 ### 🧹 Ublock filters:
 
 I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/ubo.txt), designed for UBlock Origin. Currently focused only on youtube to prevent autodubbing from working (enforce original audio). [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/misc/ubo.txt)
@@ -27,9 +35,6 @@ I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/u
 - Linux Mint [media shrinker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Compress.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Compress.sh)
 - [YT-DLP GUI](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/yt-dlp.sh) (extremely lightweight!). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/yt-dlp.sh)
 - [Setup](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/setup.sh) script. Aims to help newbies on Linux. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/setup.sh)
-
-*To run my scripts, simply download preferred .sh file and run `sudo chmod +x /path/to/downloaded/script && sudo bash /path/to/downloaded/script`.*
-
 
 ### 🧪 Experimental section
 **WARNING!** *Experimental section is not tested, and should NOT be used on critical installations! If you consider to use them, always make **FULL** backup befor running anything from this section!*
