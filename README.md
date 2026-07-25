@@ -51,10 +51,12 @@ This project provided "AS IS". I do not responsible for any malfunction caused (
 ### 🙏 Help needed:
 *I will bereally glad, if some of you will report problems and provide fixes or improvements for "experimental section".*
 
-### Proudly developed in Ukraine 🇺🇦 
-If you want to support me, please, consider donation to Ukrainian defenders:
+### Proudly created in Ukraine 🇺🇦 
+**If you can, please donate to Ukrainian defenders:**
 
-https://war.ukraine.ua/ or https://savelife.in.ua
+*https://war.ukraine.ua or https://savelife.in.ua*
+
+**Glory to Ukraine! Stop the war!**
 
 *Contact info can be found on [Codeberg](https://codeberg.org/ualinuxoid/me) or on [Github](https://github.com/ualinuxoid/me)*
 
