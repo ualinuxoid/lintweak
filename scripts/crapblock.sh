@@ -13,6 +13,19 @@ for tool in curl unzip awk; do
     fi
 done
 
+echo "============================================================"
+echo "Proudly created in Ukraine!"
+echo "============================================================"
+echo "If you can, please donate to Ukrainian defenders:"
+echo "https://war.ukraine.ua"
+echo "https://savelife.in.ua"
+echo "============================================================"
+echo "Glory to Ukraine! Stop the war!"
+echo "============================================================"
+echo "Wait a little"
+
+sleep 5
+
 echo "This script is EXPERIMENTAL."
 echo "Do not worry, script will just create a crapblock.txt file"
 
