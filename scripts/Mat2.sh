@@ -12,6 +12,16 @@ if ! sudo -v; then
     die "You need sudo privileges to install packages."
 fi
 
+echo "============================================================"
+echo "Proudly created in Ukraine!"
+echo "============================================================"
+echo "If you can, please donate to Ukrainian defenders:"
+echo "https://war.ukraine.ua"
+echo "https://savelife.in.ua"
+echo "============================================================"
+echo "Glory to Ukraine! Stop the war!"
+echo "============================================================"
+
 echo "Updating package lists..."
 sudo apt-get update || die "apt-get update failed."
 
