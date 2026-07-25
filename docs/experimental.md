@@ -14,3 +14,10 @@ To use `Aliaser`, you should first register a `@duck.com` account, then install 
 [Windata](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/windata.sh). Should help you to extract your personal files from Windows machine. Designed to run from live Debian-based Linux. *Experimental tool*. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/windata.sh)
 
 [Reed-Solomon](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/reed-solomon.sh) file protector. Aims to help you not to loose or damage your data on partially faulty storage systems. In short - this will try to prevent data corruption. ***WARNING: I am NOT python developer!** I respect my users and will NOT put this tool in main section untill it passes someone's review.* **USE ON OWN RISK** [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/reed-solomon.sh)
+
+### Proudly created in Ukraine 🇺🇦 
+**If you can, please donate to Ukrainian defenders:**
+
+*https://war.ukraine.ua or https://savelife.in.ua*
+
+**Glory to Ukraine! Stop the war!**
