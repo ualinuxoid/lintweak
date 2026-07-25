@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 
+# ============================================================
+# Proudly created in Ukraine!
+# ============================================================
+# If you can, please donate to Ukrainian defenders:
+# https://war.ukraine.ua or https://savelife.in.ua
+# ============================================================
+# Glory to Ukraine! Stop the war!
+# ============================================================
+
 set -euo pipefail
 
 API_BASE="https://quack.duckduckgo.com/api"
