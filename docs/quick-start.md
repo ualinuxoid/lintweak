@@ -2,6 +2,14 @@
 ***I recommend to review scripts before running this commands***
 
 ***Links for review can be found [here (Codeberg)](https://codeberg.org/ualinuxoid/lintweak#scripts) or [here (Github)](https://github.com/ualinuxoid/lintweak#-scripts)***
+
+### Proudly created in Ukraine 🇺🇦 
+**If you can, please donate to Ukrainian defenders:**
+
+*https://war.ukraine.ua or https://savelife.in.ua*
+
+**Glory to Ukraine! Stop the war!**
+
 ### Tor installer:
 *This script installs Tor as "VPN" (full system traffic passes through Tor), so you can bypass censorship or network restrictions system-wide. All dependencies and GUI control already managed by script. Beginner friendly!*
 ```
