@@ -15,6 +15,7 @@ Simple Linux tweaks mainly written in pure bash 🤤
 - [Setup](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/setup.sh) script. Aims to help newbies on Linux. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/setup.sh)
 - [NoRU](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/noru.sh) script (do not confuse with rublock.txt hosts file). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/noru.sh)
 - [WGuard](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/wguard.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/wguard.sh)
+- [SSDShield](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/ssdshield.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/ssdshield.sh)
 
 ### 🕶 Usage
 
