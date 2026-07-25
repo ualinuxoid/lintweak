@@ -23,6 +23,19 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/to
 sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/tor.sh | bash
 ```
 
+### SSDShield installer:
+*This script aims to prolong life of your SSD as much as possible. Beginner friendly!*
+```
+sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/ssdshield.sh | bash
+```
+<p align="center">
+  --------- OR ---------
+</p>
+
+```
+sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/ssdshield.sh | bash
+```
+
 ### WGuard installer:
 *This script installs few tweaks to hide your identity in wireless and wired networks, including (but not only) random MAC, fake OUI (manufacturer spoof), fake hostname etc. This script comes with GUI (it installs GUI), so it is safe to use for beginners*
 ```
