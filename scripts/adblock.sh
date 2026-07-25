@@ -292,5 +292,15 @@ echo " - Your choices have been saved in $CONFIG_FILE."
 echo " - A backup of your previous /etc/hosts is stored in $BACKUP."
 echo " - Automatic updates enabled for your convenience"
 
+echo "============================================================"
+echo "Proudly created in Ukraine!"
+echo "============================================================"
+echo "If you can, please donate to Ukrainian defenders:"
+echo "https://war.ukraine.ua"
+echo "https://savelife.in.ua"
+echo "============================================================"
+echo "Glory to Ukraine! Stop the war!"
+echo "============================================================"
+
 rm -f -- "$0"
 exit 0
