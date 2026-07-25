@@ -14,6 +14,19 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/to
 sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/tor.sh | bash
 ```
 
+### WGuard installer:
+*This script installs few tweaks to hide your identity in wireless and wired networks, including (but not only) random MAC, fake OUI (manufacturer spoof), fake hostname etc. This script comes with GUI (it installs GUI), so it is safe to use for beginners*
+```
+sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/wguard.sh | bash
+```
+<p align="center">
+  --------- OR ---------
+</p>
+
+```
+sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/wguard.sh | bash
+```
+
 ### Advanced ru network blocker:
 *This script tries to block as much "runet" as possible. supports three modes: **normal** (to hosts [this](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/rublock.txt) content), **agressive** (tries to fight ru TLDs) and **extreme** (tries to use IP banlist, not recommended)*
 ```
