@@ -88,10 +88,14 @@ chmod +x "/usr/share/applications/yt-dlp-gui.desktop" 2>/dev/null || true
 
 echo "==> DONE!"
 
-echo "=============================================="
-echo "---- Installation complete! ----"
-echo "If you like my utils, please consider donating Ukrainian defenders:"
+echo "============================================================"
+echo "Proudly created in Ukraine!"
+echo "============================================================"
+echo "If you can, please donate to Ukrainian defenders:"
 echo "https://war.ukraine.ua"
-echo "=============================================="
+echo "https://savelife.in.ua"
+echo "============================================================"
+echo "Glory to Ukraine! Stop the war!"
+echo "============================================================"
 
 rm -- "$0"
