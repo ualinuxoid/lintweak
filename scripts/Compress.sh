@@ -111,9 +111,20 @@ for cmd in ffmpeg uuidgen notify-send; do
     fi
 done
 
+echo "============================================================"
 echo "Installation completed successfully!"
+echo "============================================================"
 echo "Shrink script installed to: $BIN_DIR/$SCRIPT_NAME"
 echo "Nemo action installed to: $ACTIONS_DIR/$ACTION_NAME"
 echo "You may need to restart PC for the action to appear."
+echo "============================================================"
+echo "Proudly created in Ukraine!"
+echo "============================================================"
+echo "If you can, please donate to Ukrainian defenders:"
+echo "https://war.ukraine.ua"
+echo "https://savelife.in.ua"
+echo "============================================================"
+echo "Glory to Ukraine! Stop the war!"
+echo "============================================================"
 
 rm -- "$0"
