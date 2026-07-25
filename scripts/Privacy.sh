@@ -7,6 +7,16 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
+echo "============================================================"
+echo "Proudly created in Ukraine!"
+echo "============================================================"
+echo "If you can, please donate to Ukrainian defenders:"
+echo "https://war.ukraine.ua"
+echo "https://savelife.in.ua"
+echo "============================================================"
+echo "Glory to Ukraine! Stop the war!"
+echo "============================================================"
+
 echo "WARNING: This script is intended for Debian, Ubuntu, Linux Mint, and derivatives."
 echo "Do not worry, all existing configuration files will be backed up with .bak extension."
 echo
