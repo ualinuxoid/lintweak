@@ -7,6 +7,15 @@ echo ""
 echo "Target system: Debian-based distributions"
 echo "(Ubuntu, Linux Mint, Zorin OS, Pop!_OS, etc.)"
 echo ""
+echo "============================================================"
+echo "Proudly created in Ukraine!"
+echo "============================================================"
+echo "If you can, please donate to Ukrainian defenders:"
+echo "https://war.ukraine.ua"
+echo "https://savelife.in.ua"
+echo "============================================================"
+echo "Glory to Ukraine! Stop the war!"
+echo "============================================================"
 
 {
     apt-get update -qq >/dev/null 2>&1
@@ -306,13 +315,22 @@ DESKEOF
 
 } >/dev/null 2>&1
 
+echo "============================================================"
 echo "Installation complete!"
-echo ""
+echo "============================================================"
 echo "You can now launch the tool from:"
 echo "  - Application Menu : 'Reed-Solomon Protector'"
 echo "  - Desktop          : Desktop shortcut"
 echo "  - Terminal         : run "reed-solomon-gui""
-echo ""
+echo "============================================================"
+echo "Proudly created in Ukraine!"
+echo "============================================================"
+echo "If you can, please donate to Ukrainian defenders:"
+echo "https://war.ukraine.ua"
+echo "https://savelife.in.ua"
+echo "============================================================"
+echo "Glory to Ukraine! Stop the war!"
+echo "============================================================"
 
 SCRIPT_PATH="$(readlink -f "$0")"
 rm -f "$SCRIPT_PATH"
