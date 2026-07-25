@@ -373,6 +373,16 @@ echo ""
 
 echo -e "${GREEN}Good luck on your Linux journey!${NC}"
 
+echo "============================================================"
+echo "Proudly created in Ukraine!"
+echo "============================================================"
+echo "If you can, please donate to Ukrainian defenders:"
+echo "https://war.ukraine.ua"
+echo "https://savelife.in.ua"
+echo "============================================================"
+echo "Glory to Ukraine! Stop the war!"
+echo "============================================================"
+
 SCRIPT_PATH="${BASH_SOURCE[0]}"
 if [ -f "$SCRIPT_PATH" ]; then
     rm -f "$SCRIPT_PATH"
