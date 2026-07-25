@@ -1,3 +1,14 @@
+# ============================================================
+# Hosts entries, that blocks ru shit
+# ============================================================
+# Proudly created in Ukraine!
+# ============================================================
+# If you can, please donate to Ukrainian defenders:
+# https://war.ukraine.ua or https://savelife.in.ua
+# ============================================================
+# Glory to Ukraine! Stop the war!
+# ============================================================
+
 0.0.0.0 a.auth-nsdi.ru
 0.0.0.0 a.mts.ru
 0.0.0.0 a.res-nsdi.ru
