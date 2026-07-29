@@ -10,6 +10,9 @@
 
 **Glory to Ukraine! Stop the war!**
 
+### 🌐 My [website](https://ualinuxoid.github.io/)
+***I recommend you to read docs exactly via website for convenience***
+
 ### Tor installer:
 *This script installs Tor as "VPN" (full system traffic passes through Tor), so you can bypass censorship or network restrictions system-wide. All dependencies and GUI control already managed by script. Beginner friendly!*
 ```
@@ -21,6 +24,19 @@ sudo curl -s https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/to
 
 ```
 sudo curl -s https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/tor.sh | bash
+```
+
+### RBak (portable):
+*This script helps you to perform backups. Only changed files updated, so this saves time and flash lifespan. Beginner friendly!*
+```
+curl -L -o rbak.sh https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/rbak.sh && chmod +x rbak.sh && ./rbak.sh
+```
+<p align="center">
+  --------- OR ---------
+</p>
+
+```
+curl -L -o rbak.sh https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/rbak.sh && chmod +x rbak.sh && ./rbak.sh
 ```
 
 ### SSDShield installer:
