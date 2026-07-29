@@ -5,7 +5,7 @@ Simple Linux tweaks mainly written in pure bash 🤤
 
 *NOTE: [Github](https://github.com/ualinuxoid/lintweak) is used only as **mirror**. Please use my [codeberg](https://codeberg.org/ualinuxoid/lintweak) if you need to submit anything*
 
-## My [website](https://ualinuxoid.github.io/)
+### 🌐 My [website](https://ualinuxoid.github.io/)
 ***I recommend you to read docs exactly via website for convenience***
 
 ### 😏 Scripts:
