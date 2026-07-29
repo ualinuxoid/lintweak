@@ -39,6 +39,19 @@ curl -L -o rbak.sh https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scri
 curl -L -o rbak.sh https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/rbak.sh && chmod +x rbak.sh && ./rbak.sh
 ```
 
+### SBak (portable):
+*This script also helps you to perform backups. Can be used after RBak. Optimised for using its outputin Telegram as infinity cloud storage provider. Free TG account have per-file limit 2 GB. That's why script splits files by parts (and reconstruct them back! it is normal 7z feature inside). Beginner friendly!*
+```
+curl -L -o sbak.sh https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/sbak.sh && chmod +x sbak.sh && ./sbak.sh
+```
+<p align="center">
+  --------- OR ---------
+</p>
+
+```
+curl -L -o rbak.sh https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/sbak.sh && chmod +x sbak.sh && ./sbak.sh
+```
+
 ### SSDShield installer:
 *This script aims to prolong life of your SSD as much as possible. Beginner friendly!*
 ```
