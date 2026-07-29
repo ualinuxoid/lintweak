@@ -5,6 +5,9 @@ Simple Linux tweaks mainly written in pure bash 🤤
 
 *NOTE: [Github](https://github.com/ualinuxoid/lintweak) is used only as **mirror**. Please use my [codeberg](https://codeberg.org/ualinuxoid/lintweak) if you need to submit anything*
 
+## My [website](https://ualinuxoid.github.io/)
+***I recommend you to read docs exactly via website for convenience***
+
 ### 😏 Scripts:
 - [Tor "VPN" installer](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/tor.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/tor.sh)
 - Linux [privacy hardener](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Privacy.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Privacy.sh)
@@ -16,6 +19,7 @@ Simple Linux tweaks mainly written in pure bash 🤤
 - [NoRU](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/noru.sh) script (do not confuse with rublock.txt hosts file). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/noru.sh)
 - [WGuard](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/wguard.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/wguard.sh)
 - [SSDShield](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/ssdshield.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/ssdshield.sh)
+- [RBak](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/rbak.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/rbak.sh)
 
 ### 🕶 Usage
 
