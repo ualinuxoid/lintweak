@@ -47,7 +47,7 @@ if [ "${#missing[@]}" -ne 0 ]; then
 fi
 
 mkdir -p "${LOG_DIR}" 2>/dev/null
-if [ ! -d "${LOG_DIR}" ]; then.
+if [ ! -d "${LOG_DIR}" ]; then
     LOG_DIR="/tmp/rbak/"
     mkdir -p "${LOG_DIR}"
     LOG_FILE="${LOG_DIR}/sync_$(date +%Y-%m-%d_%H-%M-%S).log"
