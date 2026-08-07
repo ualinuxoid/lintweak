@@ -20,6 +20,7 @@ Simple Linux tweaks mainly written in pure bash 🤤
 - [WGuard](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/wguard.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/wguard.sh)
 - [SSDShield](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/ssdshield.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/ssdshield.sh)
 - [RBak](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/rbak.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/rbak.sh)
+- [SBaak](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/sbak.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/sbak.sh)
 
 ### 🕶 Usage
 
