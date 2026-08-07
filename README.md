@@ -9,18 +9,43 @@ Simple Linux tweaks mainly written in pure bash 🤤
 ***I recommend you to read docs exactly via website for convenience***
 
 ### 😏 Scripts:
-- [Tor "VPN" installer](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/tor.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/tor.sh)
-- Linux [privacy hardener](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Privacy.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Privacy.sh)
-- Linux [adblocker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/adblock.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/adblock.sh)
-- Linux Mint [MAT2](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Mat2.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Mat2.sh)
-- Linux Mint [media shrinker](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Compress.sh). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Compress.sh)
-- [YT-DLP GUI](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/yt-dlp.sh) (extremely lightweight!). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/yt-dlp.sh)
-- [Setup](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/setup.sh) script. Aims to help newbies on Linux. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/setup.sh)
-- [NoRU](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/noru.sh) script (do not confuse with rublock.txt hosts file). Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/noru.sh)
-- [WGuard](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/wguard.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/wguard.sh)
-- [SSDShield](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/ssdshield.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/ssdshield.sh)
-- [RBak](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/rbak.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/rbak.sh)
-- [SBaak](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/sbak.sh) script. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/scripts/sbak.sh)
+
+| Script | Description | Type |
+|--------|-------------|------|
+| [tor.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/tor.sh) | Tor as system-wide "VPN" (full traffic through Tor) | Installer |
+| [wguard.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/wguard.sh) | Identity hiding: random MAC, OUI spoof, temporary hostname + GUI | Installer |
+| [noru.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/noru.sh) | Aggressive Runet blocker (normal / aggressive / extreme modes) | Installer |
+| [Privacy.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Privacy.sh) | Light privacy tweaks (MAC randomization, NTS, DoT etc.) | Installer |
+| [adblock.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/adblock.sh) | Hosts-based adblocker (StevenBlack lists + optional categories) | Installer |
+| [ssdshield.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/ssdshield.sh) | SSD lifespan optimizations (trim, scheduler, mount options) | Installer |
+| [rbak.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/rbak.sh) | Portable rsync backup (only new/changed files) + zenity GUI | Portable |
+| [sbak.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/sbak.sh) | Portable 7z backup/restore with optional AES-256 + split for Telegram | Portable |
+| [Mat2.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Mat2.sh) | Install MAT2 + Nemo action for metadata removal | Installer |
+| [Compress.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/Compress.sh) | ffmpeg media compression as Nemo action | Installer |
+| [yt-dlp.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/yt-dlp.sh) | yt-dlp + very lightweight zenity GUI | Installer |
+| [setup.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/setup.sh) | First-time helper for newbies (Debian/Ubuntu/Mint) | Installer |
+| [wg-rnd.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/wg-rnd.sh) | Quick WireGuard config switcher via hotkey | Utility |
+
+<details>
+<summary>GitHub mirror:</summary>
+
+| Script | Description | Type |
+|--------|-------------|------|
+| [tor.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/tor.sh) | Tor as system-wide "VPN" | Installer |
+| [wguard.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/wguard.sh) | Identity hiding (MAC, OUI, hostname) + GUI | Installer |
+| [noru.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/noru.sh) | Aggressive Runet blocker | Installer |
+| [Privacy.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Privacy.sh) | Light privacy tweaks (MAC, NTS, DoT) | Installer |
+| [adblock.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/adblock.sh) | Hosts-based adblocker (StevenBlack) | Installer |
+| [ssdshield.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/ssdshield.sh) | SSD lifespan optimizations | Installer |
+| [rbak.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/rbak.sh) | Portable rsync backup (new/changed only) | Portable |
+| [sbak.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/sbak.sh) | Portable 7z backup + split for Telegram | Portable |
+| [Mat2.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Mat2.sh) | MAT2 + Nemo action | Installer |
+| [Compress.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/Compress.sh) | ffmpeg media compression (Nemo) | Installer |
+| [yt-dlp.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/yt-dlp.sh) | yt-dlp + lightweight zenity GUI | Installer |
+| [setup.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/setup.sh) | First-time helper for newbies | Installer |
+| [wg-rnd.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/wg-rnd.sh) | Quick WireGuard config switcher | Utility |
+
+</details>
 
 ### 🕶 Usage
 
