@@ -93,7 +93,7 @@ This project provided "AS IS". I do not responsible for any malfunction caused (
 
 **Glory to Ukraine! Stop the war!**
 
-*Contact info can be found on [Codeberg](https://codeberg.org/ualinuxoid/me) or on [Github](https://github.com/ualinuxoid/me)*
+*Contact info can be found on [here](https://ualinuxoid.codeberg.page/me/)*
 
 <p align="center">
 License: GPLv2-or-later
