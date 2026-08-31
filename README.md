@@ -69,6 +69,8 @@ I have [filters](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/u
 
 *NOTE: wg-rnd.sh tested only on Linux Mint, but should work on many other systems like Ubuntu*
 
+[glscr.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/personal/glscr.sh). Personal script to rotate VPN servers on router for convenience. [Github mirror](https://github.com/ualinuxoid/lintweak/blob/main/personal/glscr.sh)
+
 **And my [rublock](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/misc/rublock.txt) hosts file. Github [mirror](https://github.com/ualinuxoid/lintweak/blob/main/misc/rublock.txt)**
 
 **🧪 I also have few experimental scripts.** You can see them [here](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/docs/experimental.md) (or on [Github](https://github.com/ualinuxoid/lintweak/blob/main/docs/experimental.md))
