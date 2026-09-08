@@ -26,6 +26,7 @@ Simple Linux tweaks mainly written in pure bash 🤤
 | [setup.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/setup.sh) | First-time helper for newbies (Debian/Ubuntu/Mint) | Installer |
 | [wg-rnd.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/wg-rnd.sh) | Quick WireGuard config switcher via hotkey | Utility |
 | [rembg.sh](https://codeberg.org/ualinuxoid/lintweak/raw/branch/main/scripts/rembg.sh) | Quick bg removal with GUI (Nemo extension) | Installer |
+| [dehasher.sh](https://codeberg.org/ualinuxoid/lintweak/src/branch/main/scripts/dehasher.sh) | Portable utility to create visually identical, but technically different media file copies (alter hash) | Portable |
 
 <details>
 <summary>GitHub mirror:</summary>
@@ -46,6 +47,7 @@ Simple Linux tweaks mainly written in pure bash 🤤
 | [setup.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/setup.sh) | First-time helper for newbies | Installer |
 | [wg-rnd.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/wg-rnd.sh) | Quick WireGuard config switcher | Utility |
 | [rembg.sh](https://github.com/ualinuxoid/lintweak/raw/refs/heads/main/scripts/rembg.sh) | Quick bg removal with GUI (Nemo extension) | Installer |
+| [dehasher.sh](https://github.com/ualinuxoid/lintweak/blob/main/scripts/dehasher.sh) | Portable utility to create visually identical, but technically different media file copies (alter hash) | Portable |
 
 </details>
 
