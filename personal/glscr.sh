@@ -5,79 +5,67 @@
 # Randomly switches the active WireGuard client "server" on a GL.iNet router 
 # Prerequisites: curl, jq, openssl, md5sum.
 #
+# ======================================================================
 # Config file (gl.conf), placed next to this script, e.g.:
 #   ~/.glscrpt/gl-wg-random-switch.sh
 #   ~/.glscrpt/gl.conf
 #
 #   Contents of gl.conf:
-#     ip=192.168.8.1
+#     ip=192.168.8.1.                 # your router local LAN ip
 #     password=admin-password
 #
 # Usage:
 #   ./gl-wg-random-switch.sh          # normal run, logs to /tmp/glscr/log.txt
 #   ./gl-wg-random-switch.sh -q       # quiet run, no log file is written at all
 #
-# ---------------------------------------------------------------------
+# ======================================================================
+# Proudly created in Ukraine!
+# ======================================================================
+# If you can, please donate to Ukrainian defenders:
+# https://war.ukraine.ua or https://savelife.in.ua
+# ======================================================================
+# Glory to Ukraine! Stop the war!
+# ======================================================================
 
 set -Eeuo pipefail
 
 # ======================================================================
-# DEFAULTS (do not touch if you don't know what are you doing)
+# DEFAULTS
 # ======================================================================
 
-ROUTER_HOST="${ROUTER_HOST:-}"
-RPC_URL="${RPC_URL:-}"
-ROUTER_USER="${ROUTER_USER:-root}"
-ROUTER_PASSWORD="${ROUTER_PASSWORD:-}"
-
-# NOTE: SIDs expire after 5 minutes of inactivity).
-GLINET_SID="${GLINET_SID:-}"
+# Log file and its directory. To disable logs use -q flag
+LOG_DIR="/tmp/glscr"
+LOG_FILE="${LOG_DIR}/log.txt"
 
 # Only consider provider groups whose "group_type" is in this
 # space-separated list (1 = preconfigured, 2 = manually added,
 # 3 = added by app). Leave empty to consider every type.
 ALLOWED_GROUP_TYPES="${ALLOWED_GROUP_TYPES:-}"
 
-# Space-separated group_id / peer_id values to always skip.
-EXCLUDED_GROUP_IDS="${EXCLUDED_GROUP_IDS:-}"
-EXCLUDED_PEER_IDS="${EXCLUDED_PEER_IDS:-}"
-
 # When 1, the script avoids reselecting the server that is currently
 # active (as reported by wg-client/get_status), provided at least one
 # other candidate exists.
 AVOID_CURRENT_SERVER="${AVOID_CURRENT_SERVER:-1}"
 
-# When 1, call wg-client/stop before wg-client/start. Recommended,
-# since starting a new peer while another is running can return the
-# "vpn conflict" error.
-STOP_BEFORE_SWITCH="${STOP_BEFORE_SWITCH:-1}"
-
-# Log file and its directory. Do NOT point to /dev/null, use
-# -q flag instead
-LOG_DIR="/tmp/glscr"
-LOG_FILE="${LOG_DIR}/log.txt"
-
-# Lock file, used to prevent two instances (e.g. overlapping hotkey
-# presses or cron runs) from switching servers at the same time
-# DO NOT TOUCH
-LOCK_FILE="${LOG_DIR}/lock"
-
-# curl timeouts, in seconds
-CURL_CONNECT_TIMEOUT="${CURL_CONNECT_TIMEOUT:-5}"
-CURL_MAX_TIME="${CURL_MAX_TIME:-15}"
-
-# How many times to retry a failed RPC call before giving up
-RPC_RETRIES="${RPC_RETRIES:-2}"
-
-# When 1, do everything (login, selection, logging) except actually
-# call stop/start. Useful for testing filters
-DRY_RUN="${DRY_RUN:-0}"
-
-# Quiet mode. You can set it to 1 by the or use -q flag to disable logging
+# Quiet mode. You can set it to 1 or the use -q flag to disable logging
 QUIET=0
 
 # ======================================================================
-# END OF DEFAULTS
+# DO NOT TOUCH
+# ======================================================================
+ROUTER_HOST="${ROUTER_HOST:-}"
+RPC_URL="${RPC_URL:-}"
+ROUTER_USER="${ROUTER_USER:-root}"
+ROUTER_PASSWORD="${ROUTER_PASSWORD:-}"
+GLINET_SID="${GLINET_SID:-}"
+EXCLUDED_GROUP_IDS="${EXCLUDED_GROUP_IDS:-}"
+EXCLUDED_PEER_IDS="${EXCLUDED_PEER_IDS:-}"
+STOP_BEFORE_SWITCH="${STOP_BEFORE_SWITCH:-1}"
+LOCK_FILE="${LOG_DIR}/lock"
+CURL_CONNECT_TIMEOUT="${CURL_CONNECT_TIMEOUT:-5}"
+CURL_MAX_TIME="${CURL_MAX_TIME:-15}"
+RPC_RETRIES="${RPC_RETRIES:-2}"
+DRY_RUN="${DRY_RUN:-0}"
 # ======================================================================
 
 SCRIPT_NAME="$(basename "$0")"
